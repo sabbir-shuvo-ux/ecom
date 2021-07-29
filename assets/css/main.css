@@ -1,0 +1,443 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/* -------------------------
+# basic
+---------------------------- */
+
+section{
+	padding: 60px 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.pl_1{
+	padding-left: 1em;
+}
+
+/* ---------------------------
+# nav_top
+------------------------------ */
+
+.nav_top {
+	background: #000000;
+	width: 100%;
+	height: 38px;
+	padding: 0;
+	color: white;
+}
+
+.nav_top_left i {
+	padding-right: 8px;
+}
+
+.nav_top_left span {
+	margin-right: 10px;
+	cursor: pointer;
+	border-right: 1px solid gray;
+	padding-right: 24px;
+}
+
+.nav_top_left span:last-child{
+	border-right: 0px solid gray;
+}
+
+.nav_top_left span:hover{
+	text-decoration: underline;
+	color: #0abde3;
+}
+
+.nav_top_right i {
+	padding-right: 14px;
+	cursor: pointer;
+}
+
+.nav_top_right i:last-child{
+		padding-right: 0px;
+}
+
+.nav_top_right i:hover{
+	color: #0abde3;
+}
+
+/* ---------------------------------
+# cu_navbar
+------------------------------------ */
+
+.cu_navbar{
+	background: #fff;
+	padding: 0 50px;
+	height: 70px;
+}
+
+.logo {
+	max-width: 200px;
+}
+
+.logo h2 {
+	font-size: ;
+	color: #3CB878;
+	font-weight: bold;
+}
+
+.logo h2 span {
+	font-weight: bold;
+	color: black;
+	font-weight: 500;
+}
+
+.menu_iteam{
+	margin: 0;
+}
+
+.menu_iteam li {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.menu_iteam li a {
+	color: #3F4853;
+	font-size: 18px;
+	transition: .5s;
+}
+
+.menu_iteam li a:hover{
+	color: #3CB878;
+	letter-spacing: 2px;
+}
+
+.active_cu{
+	color: #3CB878 !important;
+	letter-spacing: 2px;
+}
+
+.menu_icon {
+	margin-left: 200px;
+}
+
+.menu_icon i {
+	cursor: pointer;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 20px;
+	transition: .5s;
+}
+
+.menu_icon i:hover{
+	color: #3CB878;
+}
+
+.cart{
+	position: relative;
+}
+
+.cart::after {
+	content: "3";
+	position: absolute;
+	left: 18px;
+	top: -7px;
+	background: #3CB878;
+	width: 17px;
+	height: 19px;
+	text-align: center;
+	border-radius: 23px;
+	color: white;
+	font-size: 18px;
+	padding-top: 1px;
+}
+
+@media (max-width: 1188px) {
+	.menu_icon{
+		margin-left: 10px;
+	}
+}
+
+#check{
+	display: none;
+}
+
+.toggel_btn{
+	display: none;
+}
+
+.toggel_btn i {
+	font-size: 23px;
+	cursor: pointer;
+}
+
+.toggel_btn i:hover {
+	color: #3CB878;
+}
+
+#check:checked ~ .menu_iteam{
+	visibility: visible;
+	opacity: 1;
+}
+
+#check:checked ~ .toggel_btn i:before{
+	content: "\f00d";
+}
+
+@media (max-width: 958px) {
+	.menu_iteam {
+		flex-direction: column;
+		position: fixed;
+		left: 0;
+		top: 100px;
+		width: 100%;
+		transition: .5s;
+		visibility: hidden;
+		opacity: 0;
+		background: white;
+	}
+
+	.menu_icon i:last-child{
+		display: none;
+	}
+
+	.toggel_btn{
+		display: block;
+	}
+
+	.menu_iteam li{
+		padding-bottom: 10px;
+	}
+}
+
+/* ---------------------------
+# hero
+------------------------------ */
+
+.hero {
+	background: #121212;
+	height: 550px;
+}
+
+.inner_hero h1 {
+	font-weight: bold;
+	max-width: 340px;
+	color: #5E5E5E;
+}
+
+.inner_hero h1 span {
+	color: #3CB878;
+}
+
+.inner_hero p {
+	color: #5E5E5E;
+	max-width: 463px;
+}
+
+.hero_btn {
+	color: #5E5E5E;
+	border: 1px solid #5E5E5E;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+	transition: .5s;
+}
+
+.hero_btn::after {
+	content: "";
+	position: absolute;
+	left: -1px;
+	top: 10px;
+	width: 1px;
+	height: 15px;
+	background: #171515;
+}
+
+.hero_btn:hover{
+	color: #5E5E5E;
+	letter-spacing: 2px;
+}
+
+/* ---------------------------
+# sellers
+------------------------------ */
+
+.sellers{
+	background: #FFFFFF;
+}
+
+.cu_card_A{
+	width: 30%;
+}
+
+.cu_card {
+	width: 17.05%;
+	padding-right: 10px;
+	position: relative;
+}
+
+.cu_card_title h3 {
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+	color: #333333;
+}
+
+.cu_card_title p {
+	color: #349764;
+	font-style: italic;
+}
+
+.cu_card_title p:last-child {
+	color: black;
+	font-style: normal;
+	line-height: 24px;
+	text-align: justify;
+	padding-right: 22px;
+	font-weight: 600;
+}
+
+.cu_card h6 {
+	margin-top: 4px;
+	font-weight: 600;
+}
+
+.c_h6{
+	color: #3CB878;
+}
+
+.cu_card i {
+	color: #FF9600;
+	cursor: pointer;
+}
+
+.cu_card i:hover{
+	color: gold;
+}
+
+.inner_cu_card {
+	position: absolute;
+	right: 23px;
+	top: 10px;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+}
+
+.cu_card:hover .inner_cu_card{
+	opacity: 1;
+	visibility: visible;
+}
+
+.inner_cu_card ul li {
+	margin-top: 10px;
+}
+
+.inner_cu_card ul li a {
+	background: #349764;
+	padding: 6px 10px;
+	display: block;
+}
+
+.inner_cu_card ul li a:hover{
+	background: #60C390;
+}
+
+.inner_cu_card ul li a i{
+	color: white;
+}
+
+.inner_cu_card ul li a i:hover{
+	color: gold;
+}
+
+@media (max-width: 772px) {
+	.seller_responsive{
+		flex-direction: column;
+	}
+
+	.cu_card_A{
+		width: 100%;
+		text-align: center;
+	}
+
+	.cu_card{
+		width: auto;
+		padding-bottom: 10px;
+	}
+
+	.cu_card h6{
+		text-align: center;
+	}
+
+	.rating {
+		text-align: center;
+	}
+}
+
+/* ---------------------------
+# highlight_service
+------------------------------ */
+.highlight_service{
+	background: #F5F6F9;
+	padding: 0;
+}
+
+.inner_highlight_service {
+	border-left: 2px solid white;
+	padding: 60px 0;
+}
+
+.b_l{
+	border-left: 0px solid white !important;
+}
+
+.inner_highlight_service i {
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: #464646;
+}
+
+.inner_highlight_service h4 {
+	font-weight: 600;
+	margin-bottom: 0;
+	color: #333333;
+}
+
+.inner_highlight_service p {
+	color: #464646;
+	font-size: 15px;
+}
+
+/* ---------------------------
+# offer_big
+------------------------------ */
+.offer_big{
+	background: #2E3348;
+	padding: 0;
+}
+#offer_big .owl-carousel .owl-nav.disabled {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+}
+#offer_big .owl-nav .owl-prev {
+	left: -651px;
+	font-size: 50px;
+	color: red;
+	position: absolute;
+	transition: .5s;
+}
+#offer_big .owl-nav .owl-prev:hover{
+	color: white;
+	background: rgba(0, 0, 0, .50);
+}
+#offer_big .owl-nav .owl-next {
+	left: 624px;
+	font-size: 50px;
+	color: red;
+	position: absolute;
+	transition: .5s;
+}
+#offer_big .owl-nav .owl-next:hover{
+	color: white;
+	background: rgba(0, 0, 0, .50);
+}

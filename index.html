@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- owl -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Home page</title>
+  </head>
+  <body>
+    <!-- ======== Nav_top ========= -->
+    <section class="nav_top d-flex align-items-center">
+      <div class="container">
+        <div class="nav_top_main d-flex justify-content-between align-items-center">
+          <div class="nav_top_left">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>+1 123 456 789</span>
+            <i class="fa fa-envelope pl_1" aria-hidden="true"></i>
+            <span>admin@gmail.com</span>
+          </div>
+          <div class="nav_top_right">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-behance" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section><!-- ======== End-nav_top ========= -->
+
+    <!-- ========== Navbar ========== -->
+    <nav class="cu_navbar d-flex justify-content-between align-items-center">
+      <div class="logo">
+        <h2 class="text-uppercase">Renoshop<span>bee</span></h2>
+      </div>
+      <div class="menus d-flex align-items-center">
+        <input type="checkbox" id="check">
+        <label for="check" class="toggel_btn">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+        <ul class="menu_iteam d-flex list-unstyled align-items-center">
+          <li><a class="active_cu" href="#">Home</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Jewellery</a></li>
+          <li><a href="#">Accessories</a></li>                        
+        </ul>
+        <div class="menu_icon d-flex">
+          <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+          <input type="checkbox" id="search">
+          <label for="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </label>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </div>
+    </nav><!-- ========== NavbarEND ========== -->
+
+    <!-- ========== hero ========== -->
+    <section class="hero d-flex justify-content-between align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10">
+            <div class="inner_hero">
+              <h1 class="text-uppercase">The Best <span>Woocommerce</span></h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <button class="btn text-uppercase hero_btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- ========== heroEND ========== -->
+
+    <!-- ========== sellers ========== -->
+    <section class="sellers">
+      <div class="container d-flex align-items-center seller_responsive">
+        <div class="cu_card_A">
+          <div class="cu_card_title">
+            <h3>Best sellers</h3>
+            <p>The best productions from us</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="cu_card">
+          <img class="img-fluid" src="assets/img/homepage-shop.png" alt="">
+            <h6>Cruise Dual Analog</h6>
+            <h6 class="c_h6">$250.00</h6>
+              <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+              <button class="btn btn-success my-2" data-bs-toggle="modal" data-bs-target="#e_com_one_modal">Details</button>
+            <!-- Modal -->
+              <div class="modal fade" id="e_com_one_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="img-fluid" src="assets/img/t.jpg" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="detils_product">
+                              <p class="product_dec">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Amet sit reiciendis assumenda nobis repellat quis minima aliquam, provident, debitis ratione.</p>
+                              
+                                <label for="size" class="pb-2">Select Your Size</label>
+                                <select name="" id="size" class="form-control">
+                                  <option value="xxl">Extra Extra Large</option>
+                                  <option value="xl">Extra Large</option>
+                                  <option value="lg">Large</option>
+                                  <option value="md">Medium</option>
+                                  <option value="sm">Small</option>
+                                </select>
+                                <form action="">
+                                  <label for="quantity" class="py-2">How Many</label>
+                                  <input type="number" class="form-control">
+                                </form>
+                                <p>
+                                  make people happy with gift. order now 5 pis for your 5 friends.&#127802;
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Ordar Now</button>
+                      <button type="button" class="btn btn-success">Add to cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- modal_end -->
+            <div class="inner_cu_card">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-retweet" aria-hidden="true"></i>
+                  </a> 
+                </li>
+              </ul>
+            </div>
+          </div>
+        <div class="cu_card">
+          <img class="img-fluid" src="assets/img/homepage-shop.png" alt="">
+            <h6>Crown Summit Backpack</h6>
+            <h6 class="c_h6">$250.00</h6>
+              <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+              <button class="btn btn-success my-2" data-bs-toggle="modal" data-bs-target="#e_com_two_modal">Details</button>
+            <!-- Modal -->
+              <div class="modal fade" id="e_com_two_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="img-fluid" src="assets/img/s.jpg" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="detils_product">
+                              <p class="product_dec">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Amet sit reiciendis assumenda nobis repellat quis minima aliquam, provident, debitis ratione.</p>
+                              
+                                <label for="size" class="pb-2">Select Your Size</label>
+                                <select name="" id="size" class="form-control">
+                                  <option value="xxl">Extra Extra Large</option>
+                                  <option value="xl">Extra Large</option>
+                                  <option value="lg">Large</option>
+                                  <option value="md">Medium</option>
+                                  <option value="sm">Small</option>
+                                </select>
+                                <form action="">
+                                  <label for="quantity" class="py-2">How Many</label>
+                                  <input type="number" class="form-control">
+                                </form>
+                                <p>
+                                  make people happy with gift. order now 5 pis for your 5 friends.&#127802;
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Ordar Now</button>
+                      <button type="button" class="btn btn-success">Add to cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- modal_end -->
+            <div class="inner_cu_card">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-retweet" aria-hidden="true"></i>
+                  </a> 
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="cu_card">
+          <img class="img-fluid" src="assets/img/homepage-shop.png" alt="">
+            <h6>Joust Duffle Bag</h6>
+            <h6 class="c_h6">$250.00</h6>
+              <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+              <button class="btn btn-success my-2" data-bs-toggle="modal" data-bs-target="#e_com_three_modal">Details</button>
+            <!-- Modal -->
+              <div class="modal fade" id="e_com_three_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="img-fluid" src="assets/img/sz.jpg" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="detils_product">
+                              <p class="product_dec">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Amet sit reiciendis assumenda nobis repellat quis minima aliquam, provident, debitis ratione.</p>
+                              
+                                <label for="size" class="pb-2">Select Your Size</label>
+                                <select name="" id="size" class="form-control">
+                                  <option value="xxl">Extra Extra Large</option>
+                                  <option value="xl">Extra Large</option>
+                                  <option value="lg">Large</option>
+                                  <option value="md">Medium</option>
+                                  <option value="sm">Small</option>
+                                </select>
+                                <form action="">
+                                  <label for="quantity" class="py-2">How Many</label>
+                                  <input type="number" class="form-control">
+                                </form>
+                                <p>
+                                  make people happy with gift. order now 5 pis for your 5 friends.&#127802;
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Ordar Now</button>
+                      <button type="button" class="btn btn-success">Add to cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- modal_end -->
+            <div class="inner_cu_card">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-retweet" aria-hidden="true"></i>
+                  </a> 
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="cu_card">
+          <img class="img-fluid" src="assets/img/homepage-shop.png" alt="">
+            <h6>Voyage Yoga Bag</h6>
+            <h6 class="c_h6">$250.00</h6>
+              <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i> 
+              </div>
+              <button class="btn btn-success my-2" data-bs-toggle="modal" data-bs-target="#e_com_four_modal">Details</button>
+            <!-- Modal -->
+              <div class="modal fade" id="e_com_four_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="img-fluid" src="assets/img/w.jpg" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="detils_product">
+                              <p class="product_dec">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Amet sit reiciendis assumenda nobis repellat quis minima aliquam, provident, debitis ratione.</p>
+                              
+                                <label for="size" class="pb-2">Select Your Size</label>
+                                <select name="" id="size" class="form-control">
+                                  <option value="xxl">Extra Extra Large</option>
+                                  <option value="xl">Extra Large</option>
+                                  <option value="lg">Large</option>
+                                  <option value="md">Medium</option>
+                                  <option value="sm">Small</option>
+                                </select>
+                                <form action="">
+                                  <label for="quantity" class="py-2">How Many</label>
+                                  <input type="number" class="form-control">
+                                </form>
+                                <p>
+                                  make people happy with gift. order now 5 pis for your 5 friends.&#127802;
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Ordar Now</button>
+                      <button type="button" class="btn btn-success">Add to cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- modal_end -->
+            <div class="inner_cu_card">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-retweet" aria-hidden="true"></i>
+                  </a> 
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </section><!-- ========== sellersEnd ========== -->
+
+    <!-- ========== highlight_service ========== -->
+    <section class="highlight_service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="inner_highlight_service text-center b_l">
+              <i class="fa fa-diamond" aria-hidden="true"></i>
+              <h4>Special offers</h4>
+              <p>Shop Big Save Big</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="inner_highlight_service text-center">
+              <i class="fa fa-telegram" aria-hidden="true"></i>
+              <h4>Free delivery</h4>
+              <p>On Orders Above $99</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="inner_highlight_service text-center">
+              <i class="fa fa-retweet" aria-hidden="true"></i>
+              <h4>30 Days Return</h4>
+              <p>Policy We Offers</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="inner_highlight_service text-center">
+              <i class="fa fa-rocket" aria-hidden="true"></i>
+              <h4>Fastest Shipping</h4>
+              <p>2 Days Express</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- ========== highlight_serviceEND ========== -->
+
+    <!-- ========== offer_big ========== -->
+    <section id="offer_big" class="offer_big">
+      <div class="container-fluid">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="assets/img/1.png" alt="">
+          </div>
+          <div class="item">
+            <img src="assets/img/2.png" alt="">
+          </div>
+          <div class="item">
+            <img src="assets/img/3.png" alt="">
+          </div>
+          <div class="item">
+            <img src="assets/img/1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section><!-- ========== offer_big_ENd ========== -->
+
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- owl -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
