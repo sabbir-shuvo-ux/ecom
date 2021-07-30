@@ -425,6 +425,14 @@ a{
 	overflow-x: hidden;
 }
 
+#offer_big .owl-dots{
+	display: none;
+}
+
+#offer_big .owl-nav{
+	display: none;
+}
+
 /* ---------------------------
 # featured
 ------------------------------ */
@@ -460,6 +468,7 @@ a{
 ------------------------------ */
 #footer_top {
 	padding-bottom: 0px;
+	padding-top: 10px;
 }
 
 .footer_Top{
@@ -530,7 +539,6 @@ a{
 
 .footer_social {
 	border-bottom: 1px solid #EEEEEE;
-	margin-bottom: 200px;
 }
 
 .footer_social_content p {
@@ -549,4 +557,120 @@ a{
 .footer_social_icone i {
 	padding-left: 21px;
 	padding-right: 28px;
+	cursor: pointer;
+}
+.footer_social_icone i:hover{
+	color: #3CB878;
+}
+
+@media (max-width: 1218px) {
+	.footer_social_icone i {
+		padding-left: 12px;
+		padding-right: 23px;
+	}
+}
+
+@media (max-width: 990px) {
+	.footer_social_icone i{
+		padding-left: 6px;
+		padding-right: 15px;
+	}
+}
+
+@media (max-width: 744px) {
+
+	.footer_social_content p {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.footer_social{
+		border: none;
+	}
+
+	.footer_social_icone{
+		border: none;
+	}
+
+	.footer_social_icone{
+		margin-top: 10px;
+		text-align: center;
+	}
+}
+
+/* ---------------------------
+# footer
+------------------------------ */
+
+.footer{
+	padding: 40px 0;
+}
+
+.footer_content h4 {
+	padding-bottom: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.footer_content ul li a {
+	color: #000;
+	line-height: 34px;
+}
+
+.footer_content ul li a:hover{
+	color: #3CB878;
+	text-decoration: underline;
+}
+
+.footer_content_two ul li{
+	line-height: 34px;
+}
+
+.footer_content_two ul li a:hover{
+	text-decoration: none;
+}
+
+.footer_active{
+	color: #3CB878 !important;
+}
+
+@media (max-width: 744px) {
+	.footer_content{
+		text-align: center;
+	}
+}
+
+/* ---------------------------
+# footer
+------------------------------ */
+
+.footer_bottom{
+	padding: 20px 0;
+	background: black;
+}
+
+.footer_bottom_content p {
+	margin: 0;
+	color: #6C6C6C;
+}
+
+.payment_method img {
+	margin-right: 12px;
+}
+
+@media (max-width: 1190px) {
+	.payment_method img {
+		margin-right: 4px;
+		width: 35px;
+	}
+}
+
+@media (max-width: 742px) {
+	.footer_bottom_content p{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.payment_method {
+		text-align: center;
+	}
 }
