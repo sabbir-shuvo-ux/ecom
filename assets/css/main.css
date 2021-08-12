@@ -231,6 +231,12 @@ a{
 	transform: translate(-50%, -50%);
 }
 
+@media (max-width: 1284px) {
+	#hero .owl-nav {
+		display: none;
+	}
+}
+
 #hero .owl-nav .owl-prev {
 	position: absolute;
 	top: -54px;
